@@ -1,6 +1,6 @@
+Links: https://delicious.com/goyalankit/ut-database-systems
+
 ### Why NoSQL
-
-
 
 ---
 
