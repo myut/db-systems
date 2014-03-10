@@ -2,11 +2,11 @@
 
 More Links [here](https://delicious.com/goyalankit/ut-database-systems).
 
-### Why NoSQL
-
 ---
 
-## Case Studies:
+## Why NoSQL
+
+### Case Studies:
 
 #### 1. Google App Engine:
 
@@ -32,7 +32,7 @@ Stores: Cloud SQL, Datastore, Cloud Storage.
 * Now supports a subset of SQL. Beyond SQL: contains all/any(In).
 * Scales in the size of the result set.
 
-# Aggregates
+### Aggregates
        
 **NoSQL**: MapReduce for aggregates. Materialized views to track updates.
 **SQL**: Group By.
@@ -48,7 +48,7 @@ GROUP BY people.city_id
 **SQL**: Joins. Queries to everything is better.
 
 
-# Transactions
+### Transactions
 **NoSQL**: 
 * Entity groups to handle transactions.
 * Cross entity transactions are possible. 2-PC commit. Doesn't scale if number of transactions are large. Limited to 5 entities. 
@@ -59,7 +59,7 @@ GROUP BY people.city_id
 * Much better transactions support. 
 
 
-# Replication
+### Replication
 
 **MySQL**: 
 * Traditionally: Single master to gurantee strong consistency. 
@@ -68,7 +68,7 @@ GROUP BY people.city_id
 
 However, Google app engine synchronously replicates changes.
 
-# Scalability
+### Scalability
 * Off the shelf software. 
 * SQL works best when data fits in memory.
 * Store archived listings in the datastore.
