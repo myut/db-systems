@@ -1,4 +1,6 @@
-Links: https://delicious.com/goyalankit/ut-database-systems
+[ACM Paper comparing PNUTS, Cassandra, Hbase](http://research.yahoo.com/files/ycsb.pdf)
+
+More Links [here](https://delicious.com/goyalankit/ut-database-systems).
 
 ### Why NoSQL
 
